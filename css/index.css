@@ -1,0 +1,178 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Scada', sans-serif;
+}
+
+html{
+		height:100%;
+
+		}
+		
+	body{
+		/*background-color:#FFF;*/
+		background-color:#7F7F7F;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		height:100%;
+		}
+		
+	#wrap{
+		/*background-color:#0066FF;*/
+		margin:0 auto;
+		width:940px;
+		position:relative;
+		min-height:100%;
+		}	
+		
+	
+	header{
+		height:150px;
+		background-color:#2D29B4;
+		color:#FFF;
+		overflow:hidden;
+		/*border-radius:10px;*/
+		}
+	
+	#lefthead{
+		float:left;
+		margin:20px;
+		width:400px;
+		background-color:#2D29B4;
+		}
+		
+	#lefthead h1{
+		margin:20px 0 0 150px;
+		font-size: 22px;
+		text-shadow: 2px 2px 1px #000;
+		
+		}
+	#lefthead h3{
+		font-size: 22px;
+		margin:20px 0 0 150px;
+		text-shadow: 2px 2px 1px #999;
+	}
+
+	#righthead{
+		color:#CCC;
+		float:left;
+		margin:50px;
+		text-align:right;
+		width:400px;
+		}
+		
+		#righthead span{
+			color:#FF0;
+			margin-right:0;
+			}
+		
+	#container{
+		background-color:#2D29B4;
+		margin:1px 0;
+		overflow:hidden;
+		padding-bottom:120px
+		} 
+		
+    #leftcol{
+		background-color:#2D29B4;
+		float:left;
+		width:230px;
+		font-size:14px;
+		color:#CCC;
+		border:1px solid white;
+		/*border-radius:10px;*/
+		}
+		
+	#pic {
+		width:230px;
+		height:1773px;
+		border:1px solid yellow;
+		margin:0 auto;
+		overflow-y: scroll;
+		text-align:center;
+		}
+		
+	#leftcol h4{
+		text-align:center;
+		text-shadow: 2px 2px 1px #000;
+		}
+		
+	#pic img{
+		margin-top:5px;
+		width:200px;
+		border:none;
+		}
+        #pic img:hover{
+        cursor:pointer;
+	}
+		
+	#content{
+		background-color:#FFF;
+		overflow:hidden;
+		border:1px solid white;
+		border-right:1px solid #006;
+		/*border-radius:10px;*/
+		}
+		
+		#content h2{
+			background-color:#006;
+			color:#FFF;
+			/*text-shadow: 2px 2px 1px #999;*/
+			border-bottom:1px solid #FFF;
+			}
+
+		#content ul, h4 {
+			margin: 10px 20px 10px 25px;
+			text-align:left;
+			}
+
+		#content h5{
+			background-color:#003;
+			color:#999;
+			text-indent:25px;
+			}
+		
+		#content p {
+			margin-left:25px;
+			margin-right:25px;
+			margin-bottom:10px;
+			text-align:justify;
+			}
+		
+	footer{
+		height:100px;
+		background-color:#000;
+		opacity: 0.8;
+		color:grey;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		line-height:100px;
+		text-align:center;
+		}
+		footer p{
+			display:inline;
+			}	
+		
+	#logger{
+		margin-left: 200px;
+		display:inline;
+		}
+	#keywords{
+		color:black;
+		font-size: 0.2pt;
+	}
+#invis {
+    display: none;
+    position:fixed;
+    top:30px;
+    left:50px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0,0,0,0.8);
+    border:2px lime outset;
+}
+    #invis img {
+        padding:90px;
+        width: 600px;
+        height: 409px;
+    }
